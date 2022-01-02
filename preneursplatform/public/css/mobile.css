@@ -1,0 +1,102 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 0px) and (max-width: 480px) {
+    /* CSS */
+
+    .desktop {
+      display: none;
+    }
+    
+    /* .register-button {
+      background-color: #8b65f8;
+      color: white;
+    }
+
+    .register-button:hover {
+      background-color: white;
+      color: black;
+    }
+    
+    .login-button {
+      background-color: #d5c6ff;
+      color: white;
+    }
+
+    .login-button:hover {
+      background-color: white;
+      color: #000;
+    } */
+
+    /* .mobile { */
+      /* background-image: linear-gradient(to right, rgba(188, 201, 231, 0), rgb(192, 218, 235));
+      /* background-image: url('img/mobile.png'); */
+      /* height: 100vh; */
+    /* }  */
+    .welcome-img {
+      /* margin-top: 1rem; */
+      max-width: 100%;
+    }
+
+    .welcome-img > img {
+      /* margin: 1%; */
+      /* margin-top: 15%; */
+      height: 100vh;
+      min-width: 100%;
+      max-width: 100%;
+      /* border-radius: 5%; */
+    }
+
+    /* .Discover {
+      margin: auto;
+      position: relative;
+      width: 80%;
+      padding-top: 3%;
+    }
+
+    .Discover > h2, p {
+      padding: 5% 0;
+
+    }
+
+    .Discover > h2 {
+      margin: 0 10%;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .Discover > p {
+      font-size: 13px;
+    } */
+    
+    .Get-Started{
+      margin: auto;
+      position: absolute;
+      bottom: 1rem;
+      width: 100%;
+      padding-right: 5%;
+    }
+
+    .Get-Started > a {
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .strelka {
+      padding-left: 7px;
+    }
+
+    /* .Get-Started {
+      margin: 0 10%;
+    }
+
+    .Get-Started > a {
+      border-radius: 10px;
+      font-size: 14px;
+      padding: 1rem 2.3rem;
+    } */
+}

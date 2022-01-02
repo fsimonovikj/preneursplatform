@@ -1,0 +1,57 @@
+* {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f7fafb;
+    /* background-image: url("/img/abstractbg.jpg"); */
+    /* background-image: url("/img/6744895.jpg"); */
+    /* filter: blur(8px); */
+
+    /* background-color: rgb(243, 243, 243); */
+    /* background-image: url("/img/background.jpg"); */
+
+    /* background-color: rgba(145, 184, 240, 30); */
+}
+
+.profile-img {
+    
+    width: 120px;
+    height: auto;
+    float: left;
+    border-radius: 50%;
+    margin-right: 25px;
+    padding-top: 10px;
+    margin-bottom: 2rem;
+}
+
+#address {
+    font-size: 12px;
+}
+
+#biography {
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+#ProfileButton {
+    border-radius: 20px;
+    padding: 10 20px;
+    font-size: 12px;
+}
+
+.personal-info > div p {
+    font-size: 12px;
+}
+
+#filter-projects > input[type="radio"] {
+    display:none;
+}
+
+#filter-experience > input[type="radio"] {
+    display:none;
+}
+
+#filter-biography > input[type="radio"] {
+    display:none;
+}

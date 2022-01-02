@@ -1,0 +1,60 @@
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to higher resolution desktops
+*/
+
+@media (min-width: 1025px) {
+    /* CSS */
+    /* section {
+        margin-top: 9rem;
+    } */
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        padding: 0 10rem;
+        background-color: #ffffff;
+        height: 100vh;
+        /* text-align: center; */
+    }
+    .login-page {
+        margin-top: 9rem;
+    }
+    #sign-up>img {
+        width: 400px;
+        /* width: 200px; */
+        height: auto;
+    }
+    .card {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    }
+    .logginButton {
+        width: 100%;
+    }
+    .forgetPassword {
+        font-size: 12px;
+    }
+
+    .right-side {
+        /* max-width: 100%; */
+        min-height: 100vh;
+        display: flex;
+    }
+
+    .right-side > img {
+        width: 100%;
+        bottom: 0;
+        /* margin: auto; */
+    }
+
+    .freelance-color {
+        color: #aa24ec;
+    }
+
+    .WelcomeButtons-Desktop > a {
+        border-radius: 10px;
+        font-size: 14px;
+        padding: 1rem 4rem;
+      }
+}
